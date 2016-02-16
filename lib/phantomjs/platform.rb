@@ -1,6 +1,6 @@
 module Phantomjs
   class Platform
-    DOWNLOAD_HOST = "https://bitbucket.org/ariya/phantomjs/downloads"
+    DOWNLOAD_HOST = "https://teespring-builds.s3.amazonaws.com"
 
     class << self
       def host_os
