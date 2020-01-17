@@ -18,7 +18,7 @@ module Phantomjs
     end
 
     def version
-      Phantomjs::VERSION.split('.')[0..-2].join('.')
+      ENV['PHANTOMJS_VERSION'].present? ? ENV['PHANTOMJS_VERSION'] : Phantomjs::VERSION.split('.')[0..-2].join('.')
     end
 
     def path

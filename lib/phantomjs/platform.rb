@@ -100,7 +100,7 @@ module Phantomjs
         end
 
         def package_url
-          "#{DOWNLOAD_HOST}/phantomjs-1.9.7-linux-x86_64.tar.bz2"
+          "#{DOWNLOAD_HOST}/phantomjs-#{Phantomjs.version}-linux-x86_64.tar.bz2"
         end
       end
     end
@@ -116,7 +116,7 @@ module Phantomjs
         end
 
         def package_url
-          "#{DOWNLOAD_HOST}/phantomjs-1.9.7-linux-i686.tar.bz2"
+          "#{DOWNLOAD_HOST}/phantomjs-#{Phantomjs.version}-linux-i686.tar.bz2"
         end
       end
     end
@@ -132,7 +132,7 @@ module Phantomjs
         end
 
         def package_url
-          "#{DOWNLOAD_HOST}/phantomjs-1.9.7-macosx.zip"
+          "#{DOWNLOAD_HOST}/phantomjs-#{Phantomjs.version}-macosx.zip"
         end
       end
     end
@@ -156,7 +156,7 @@ module Phantomjs
         end
 
         def package_url
-          "#{DOWNLOAD_HOST}/phantomjs-1.9.7-windows.zip"
+          "#{DOWNLOAD_HOST}/phantomjs-#{Phantomjs.version}-windows.zip"
         end
       end
     end
